@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+## Template for the new aitorlancharro.com
+
+<p>© 2022 Aitor Lancharro.  Code with ☕️</p>
