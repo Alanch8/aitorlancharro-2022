@@ -1,12 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import Avatar from "../public/avatar.png";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <Image width="300px" height="200px" src={Avatar} />
         <title>Aitor Lancharro - FullStack Developer | UX/UI Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
