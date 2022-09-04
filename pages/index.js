@@ -21,6 +21,23 @@ export default function Home() {
             <p> 🚧 🚧 🚧 🚧 </p>
           </div>
         </div>
+        <div className="social">
+          <div>
+            <a href="https://github.com/Alanch8">
+              <img src="/github-icon.svg"></img>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/aitorlancharrohurtado/">
+              <img src="/linkedin-icon.svg"></img>
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/alanch_8">
+              <img src="/twitter-icon.svg"></img>
+            </a>
+          </div>
+        </div>
       </main>
 
       <footer>
@@ -137,7 +154,7 @@ export default function Home() {
 
         .card h3 {
           margin: 0 0 1rem 0;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
 
         .card p {
@@ -149,6 +166,12 @@ export default function Home() {
 
         .logo {
           height: 1em;
+        }
+
+        .social {
+          width: 110px;
+          display: flex;
+          justify-content: space-between;
         }
 
         @media (max-width: 600px) {
