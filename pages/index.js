@@ -24,17 +24,17 @@ export default function Home() {
         <div className="social">
           <div>
             <a href="https://github.com/Alanch8">
-              <img src="/github-icon.svg"></img>
+              <img src="/github-icon.svg" alt="github-logo"></img>
             </a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/aitorlancharrohurtado/">
-              <img src="/linkedin-icon.svg"></img>
+              <img src="/linkedin-icon.svg" alt="linkedin-logo"></img>
             </a>
           </div>
           <div>
             <a href="https://twitter.com/alanch_8">
-              <img src="/twitter-icon.svg"></img>
+              <img src="/twitter-icon.svg" alt="twitter-logo"></img>
             </a>
           </div>
         </div>
