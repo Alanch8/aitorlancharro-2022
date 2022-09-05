@@ -1,14 +1,18 @@
 import Head from "next/head";
+import "animate.css";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container animate__animated animate__fadeIn">
       <Head>
         <title>Aitor Lancharro - FullStack Developer | UX/UI Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
+        <div>
+          <img src="/avatar.svg" alt="avatar" className="avatar"></img>
+        </div>
         <h1 className="title">Aitor Lancharro</h1>
 
         <p className="description">
@@ -23,17 +27,20 @@ export default function Home() {
         </div>
         <div className="social">
           <div>
-            <a href="https://github.com/Alanch8">
+            <a className="github" href="https://github.com/Alanch8">
               <img src="/github-icon.svg" alt="github-logo"></img>
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/aitorlancharrohurtado/">
+            <a
+              className="linkedin"
+              href="https://www.linkedin.com/in/aitorlancharrohurtado/"
+            >
               <img src="/linkedin-icon.svg" alt="linkedin-logo"></img>
             </a>
           </div>
           <div>
-            <a href="https://twitter.com/alanch_8">
+            <a className="twitter" href="https://twitter.com/alanch_8">
               <img src="/twitter-icon.svg" alt="twitter-logo"></img>
             </a>
           </div>
@@ -45,7 +52,11 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+        * {
+          margin: 0;
+        }
         .container {
+          margin-top: 0px;
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
@@ -169,9 +180,39 @@ export default function Home() {
         }
 
         .social {
-          width: 110px;
+          margin-top: 10px;
+          width: 130px;
           display: flex;
           justify-content: space-between;
+        }
+
+        .github {
+          width: 30px;
+        }
+
+        .linkedin {
+          width: 30px;
+        }
+
+        .twitter {
+          width: 30px;
+        }
+
+        .avatar {
+          width: 240px;
+        }
+
+        .github:hover {
+          filter: invert(93%) sepia(0%) saturate(56%) hue-rotate(142deg)
+            brightness(91%) contrast(83%);
+        }
+        .linkedin:hover {
+          filter: invert(28%) sepia(66%) saturate(1955%) hue-rotate(178deg)
+            brightness(97%) contrast(101%);
+        }
+        .twitter:hover {
+          filter: invert(61%) sepia(60%) saturate(5037%) hue-rotate(178deg)
+            brightness(102%) contrast(90%);
         }
 
         @media (max-width: 600px) {
