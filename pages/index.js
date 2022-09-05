@@ -110,8 +110,8 @@ export default function Home() {
         }
 
         .title {
-          margin: 0;
-          line-height: 1.15;
+          margin: 10px 0;
+          line-height: 1;
           font-size: 4rem;
         }
 
@@ -219,6 +219,11 @@ export default function Home() {
           .grid {
             width: 100%;
             flex-direction: column;
+          }
+          .title {
+            margin: 25px 0;
+            line-height: 1;
+            font-size: 2.9rem;
           }
         }
       `}</style>
