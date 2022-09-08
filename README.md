@@ -8,6 +8,6 @@ I would like to implement a library like Moment.js or similar to automate the ye
 
 I want to add a projects section with flex-box or grid to add the projects I make in parallel.
 
-Translated with www.DeepL.com/Translator (free version)
+I'm actually working on the design with Figma.
 
 <p>© 2022 Aitor Lancharro.  Code with ☕️</p>
