@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "animate.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,12 +9,15 @@ export default function Home() {
         <title>Aitor Lancharro - FullStack Developer | UX/UI Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-
       <main>
         <div>
-          <img src="/avatar.svg" alt="avatar" className="avatar"></img>
+          <Image
+            src="/images/avatar.svg"
+            alt="avatar"
+            className="avatar"
+            width={300}
+            height={300}
+          ></Image>
         </div>
         <h1 className="title">Aitor Lancharro</h1>
 
@@ -30,7 +34,12 @@ export default function Home() {
         <div className="social">
           <div>
             <a className="github" href="https://github.com/Alanch8">
-              <img src="/github-icon.svg" alt="github-logo"></img>
+              <Image
+                src="/images/github-icon.svg"
+                alt="github-logo"
+                width={50}
+                height={50}
+              ></Image>
             </a>
           </div>
           <div>
@@ -38,20 +47,30 @@ export default function Home() {
               className="linkedin"
               href="https://www.linkedin.com/in/aitorlancharrohurtado/"
             >
-              <img src="/linkedin-icon.svg" alt="linkedin-logo"></img>
+              <Image
+                src="/images/linkedin-icon.svg"
+                alt="linkedin-logo"
+                width={50}
+                height={50}
+              ></Image>
             </a>
           </div>
           <div>
             <a className="twitter" href="https://twitter.com/alanch_8">
-              <img src="/twitter-icon.svg" alt="twitter-logo"></img>
+              <Image
+                src="/images/twitter-icon.svg"
+                alt="twitter-logo"
+                width={50}
+                height={50}
+              ></Image>
             </a>
           </div>
         </div>
       </main>
-
+      {/* 
       <footer>
         <p>© 2022 Aitor Lancharro. Code with ☕️</p>
-      </footer>
+      </footer> */}
 
       <style jsx>{`
         * {
@@ -235,9 +254,6 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
         }
 
         * {
