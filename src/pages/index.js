@@ -1,15 +1,17 @@
 import Head from "next/head";
 import "animate.css";
-import Image from "next/image";
+import { Navbar } from "../components/Navbar";
+// import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="container animate__animated animate__fadeIn">
+    <div className="animate__animated animate__fadeIn">
       <Head>
         <title>Aitor Lancharro - FullStack Developer | UX/UI Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <Navbar />
+      {/* <main>
         <div>
           <Image
             src="/images/avatar.svg"
@@ -66,7 +68,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </main>
+      </main> */}
       {/* 
       <footer>
         <p>© 2022 Aitor Lancharro. Code with ☕️</p>
