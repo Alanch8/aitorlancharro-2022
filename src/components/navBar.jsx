@@ -9,30 +9,22 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container-fluid">
-        <a className="brand-icon" aria-current="page" href="#">
+        <a className="brand-logo" aria-current="page" href="#">
           <Image src={brand} alt="logo"></Image>
         </a>
         <div className="menu">
           <a className="nav-link active" aria-current="page" href="#">
             Work
           </a>
-          <a className="nav-link active" aria-current="page" href="#">
+          <a className="nav-link" aria-current="page" href="#">
             Skills
           </a>
-          <a className="nav-link active" aria-current="page" href="#">
+          <a className="nav-link" aria-current="page" href="#">
             Contact
           </a>
-          <button className="menuButton" style={{ width: "25px" }}>
+          {/* <button className="menuButton" style={{ width: "25px" }}>
             <MoonIcon />
-          </button>
-          <button className="menuButton">
-            <Image src={github} alt="logo"></Image>
-          </button>
-          <button className="menuButton">
-            <i>
-              <Image src={linkedin} alt="logo"></Image>
-            </i>
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
