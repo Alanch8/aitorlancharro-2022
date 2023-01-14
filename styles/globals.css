@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
@@ -34,15 +34,6 @@ body {
     var(--tw-backdrop-sepia);
 }
 
-/* .navbar {
-  overflow: hidden;
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  backdrop-filter: blur(15px) brightness(75%) saturate(70%);
-} */
-
 .brand-logo {
   margin-top: 6px;
 }
@@ -63,20 +54,47 @@ body {
   width: 350px;
 }
 
-/* .menuButton {
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 100%;
-  background-color: pink;
-} */
-
 .nav-link {
   margin-left: 50px;
 }
 
-.test {
-  display: flex;
-  justify-content: center;
+.hero-section {
   margin-top: 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 3s; /* Change to speed up or slow down */
+  animation-iteration-count: 2; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
