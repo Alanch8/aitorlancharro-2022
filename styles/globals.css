@@ -64,6 +64,10 @@ body {
   padding-right: 2rem;
 }
 
+.hero-img {
+  width: 250px;
+}
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 3s; /* Change to speed up or slow down */
