@@ -65,7 +65,37 @@ body {
 }
 
 .hero-img {
+  width: auto;
+}
+
+.tab-img {
   width: 250px;
+  margin-top: -150px;
+  margin-left: 230px;
+}
+
+.vue-img {
+  width: 250px;
+  margin-top: -285px;
+  margin-left: -10px;
+}
+
+.react-img {
+  width: 250px;
+  margin-top: -340px;
+  margin-left: 10px;
+}
+
+.js-img {
+  width: 250px;
+  margin-top: -360px;
+  margin-left: 320px;
+}
+
+.figma-img {
+  width: 250px;
+  margin-top: -285px;
+  margin-left: 360px;
 }
 
 .wave {

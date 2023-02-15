@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "animate.css";
-import { Navbar } from "../components/Navbar";
+import { Header } from "../components/header";
 import { HeroSection } from "../components/heroSection";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <title>Aitor Lancharro - FullStack Developer | UX/UI Design</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      <Header />
       <HeroSection />
       <style jsx>{``}</style>
       <style jsx global>{``}</style>
