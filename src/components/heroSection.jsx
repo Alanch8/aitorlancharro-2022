@@ -71,6 +71,12 @@ export const HeroSection = () => {
               />
             </svg>
           </button>
+          <p>
+            Anim fugiat deserunt ipsum pariatur consequat. Voluptate Lorem
+            commodo commodo reprehenderit elit deserunt cillum. Aute laborum ea
+            sit qui cupidatat excepteur voluptate. Ipsum eiusmod culpa nulla eu
+            velit culpa. Mollit non commodo mollit duis dolore ut.
+          </p>
         </div>
       </div>
       {/* <div className="relative">
