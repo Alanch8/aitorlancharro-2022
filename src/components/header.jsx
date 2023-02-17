@@ -6,7 +6,9 @@ import brand from "../../public/images/brand-logo.svg";
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  return (
+  //codepen.io/alvarotrigo/pen/wvrzPWL //Try this to improve the navbar
+
+  https: return (
     <div className="navbar flex items-center justify-between border-b border-gray-200 py-4 px-8 lg:px-32">
       <a href="/">
         <Image src={brand} alt="logo"></Image>
@@ -56,28 +58,28 @@ export const Header = () => {
               </svg>
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[170px]">
-              <li className="font-bold">
-                <a href="/work">Work</a>
+              <li className="font-bold hover:text-rose-400">
+                <a href="#work">Work</a>
               </li>
-              <li className="font-bold">
-                <a href="/skills">Skills</a>
+              <li className="font-bold hover:text-emerald-400">
+                <a href="#skills">Skills</a>
               </li>
-              <li className="font-bold">
-                <a href="/contact">Contact</a>
+              <li className="font-bold hover:text-violet-400">
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li className="my-2 font-bold">
-            <a href="/work">Work</a>
+          <li className="my-2 font-bold hover:text-rose-400">
+            <a href="#work">Work</a>
           </li>
-          <li className="my-2 font-bold">
-            <a href="/skills">Skills</a>
+          <li className="my-2 font-bold hover:text-emerald-400">
+            <a href="#skills">Skills</a>
           </li>
-          <li className="my-2 font-bold">
-            <a href="/contact">Contact</a>
+          <li className="my-2 font-bold hover:text-violet-400">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

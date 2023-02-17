@@ -26,6 +26,7 @@ body {
 .hideMenuNav {
   display: none;
 }
+
 .showMenuNav {
   display: block;
   position: fixed;

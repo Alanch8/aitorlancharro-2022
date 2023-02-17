@@ -17,7 +17,7 @@ export const HeroSection = () => {
               src={avatar}
               width={200}
               alt="avatar"
-              className="drop-shadow-xl"
+              className="drop-shadow-xl lg:hidden"
             ></Image>
           </div>
         </div>
@@ -71,15 +71,9 @@ export const HeroSection = () => {
               />
             </svg>
           </button>
-          <p>
-            Anim fugiat deserunt ipsum pariatur consequat. Voluptate Lorem
-            commodo commodo reprehenderit elit deserunt cillum. Aute laborum ea
-            sit qui cupidatat excepteur voluptate. Ipsum eiusmod culpa nulla eu
-            velit culpa. Mollit non commodo mollit duis dolore ut.
-          </p>
         </div>
       </div>
-      {/* <div className="relative">
+      <div className="relative hidden lg:block">
         <div className="relative">
           <Image
             src={avatar}
@@ -103,7 +97,7 @@ export const HeroSection = () => {
         <div className="figma-img absolute">
           <Image src={figmaImg} alt="codeTab"></Image>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
