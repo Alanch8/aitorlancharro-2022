@@ -24,20 +24,20 @@ export const HeroSection = () => {
         <h1 className="text-1xl opacity-75 mt-10">
           Hi <span className="wave">👋🏽</span>, I'm
         </h1>
-        <h1 className="text-4xl font-bold">Aitor Lancharro</h1>
-        <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">
+        <h1 className="text-3xl font-bold">Aitor Lancharro</h1>
+        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">
           {" "}
-          Front-End Developer
+          Frontend Developer
         </h2>
         {/* Ejemplo de lo del typewriter https://codepen.io/Danielgroen/pen/VeRPOq */}
-        <p className="opacity-50 mr-10 mt-2 text-base">
+        <p className="opacity-50 mt-2 text-base">
           A creative engineer based in Barcelona with a background in Industrial
-          <br></br> Engineering, Full-stack Development and Design. Interested
+          <br></br> Engineering, Full Stack Development and Design. Interested
           in UX/UI, <br></br>Digital media, Innovative Thinking and Future
           technologies.
         </p>
         <div className="flex">
-          <button className="bg-white flex hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 my-4 rounded shadow">
+          <button className="bg-gray-900 text-slate-50 flex hover:text-black hover:bg-white font-semibold py-2 px-4 border border-gray-900 my-4 rounded-full">
             My Portfolio &nbsp;
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ export const HeroSection = () => {
               />
             </svg>
           </button>
-          <button className="bg-white flex hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 mx-2 my-4 rounded shadow">
+          <button className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 mx-2 my-4 rounded-full">
             Resume &nbsp;
             <svg
               xmlns="http://www.w3.org/2000/svg"

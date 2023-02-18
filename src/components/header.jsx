@@ -59,13 +59,19 @@ export const Header = () => {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[170px]">
               <li className="font-bold hover:text-rose-400">
-                <a href="#work">Work</a>
+                <a href="#work" onClick={() => setIsNavOpen(false)}>
+                  Work
+                </a>
               </li>
               <li className="font-bold hover:text-emerald-400">
-                <a href="#skills">Skills</a>
+                <a href="#skills" onClick={() => setIsNavOpen(false)}>
+                  Skills
+                </a>
               </li>
               <li className="font-bold hover:text-violet-400">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={() => setIsNavOpen(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
