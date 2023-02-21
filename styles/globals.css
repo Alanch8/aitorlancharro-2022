@@ -202,3 +202,44 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+.footer-section {
+  margin-top: -1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #212121;
+}
+
+/* shape divider footer */
+
+.custom-shape-divider-bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #212121;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom svg {
+    width: calc(100% + 1.3px);
+    height: 51px;
+  }
+}
+
+.hideAnnouncement {
+  display: none;
+}

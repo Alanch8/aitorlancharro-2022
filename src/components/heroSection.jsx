@@ -10,6 +10,8 @@ import figmaImg from "../../public/images/figma.png";
 export const HeroSection = () => {
   return (
     <div className="flex justify-around items-center hero-section">
+      {/* Announcement Component */}
+
       <div className="hero-info">
         <div className="flex justify-center">
           <div>
