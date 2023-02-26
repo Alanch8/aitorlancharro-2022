@@ -32,39 +32,43 @@ export const HeroSection = () => {
           Frontend Developer
         </h2>
         {/* Ejemplo de lo del typewriter https://codepen.io/Danielgroen/pen/VeRPOq */}
-        <p className="opacity-50 mt-2 text-base">
+        <p className="opacity-50 my-2 text-base">
           A creative engineer based in Barcelona with a background in Industrial
           <br></br> Engineering, Full Stack Development and Design. Interested
           in UX/UI, <br></br>Digital media, Innovative Thinking and Future
           technologies.
         </p>
         <div className="flex">
-          <button className="bg-gray-900 text-slate-50 flex hover:text-black hover:bg-white font-semibold py-2 px-4 border border-gray-900 my-4 rounded-full">
-            My Portfolio &nbsp;
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 22 20"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-5 h-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg>
-          </button>
-          <button className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 mx-2 my-4 rounded-full">
-            Resume &nbsp;
+          <a className="group relative inline-flex items-center overflow-hidden rounded-full bg-gray-900 px-4 py-2 text-slate-50 right-0 focus:outline-none focus:ring active:bg-indigo-500 cursor-pointer">
+            <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 22 22"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </span>
+            <span className="font-semibold transition-all group-hover:mr-8">
+              My Portfolio
+            </span>
+          </a>
+          <a className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold px-4 py-2 ml-2 border border-gray-400 rounded-full cursor-pointer">
+            Resume
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 -1 27 21"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-5 h-5 ml-2"
             >
               <path
                 strokeLinecap="round"
@@ -72,7 +76,7 @@ export const HeroSection = () => {
                 d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
       <div className="relative hidden lg:block">

@@ -11,8 +11,11 @@ export const FooterSection = () => {
       <div className="p-5">
         <Image src={brand} width={150} alt="brand" className=""></Image>
       </div>
-      <p className="text-slate-200 opacity-70 pb-10">
+      <p className="text-slate-200 opacity-70 pb-2">
         Copyright © 2023 Aitor Lancharro
+      </p>
+      <p className="text-slate-200 opacity-70 pb-10">
+        Designed and Developed with 🤍 + ☕️
       </p>
     </div>
   );
