@@ -17,14 +17,14 @@ export const HeroSection = () => {
           <div>
             <Image
               src={avatar}
-              width={200}
+              width={240}
               alt="avatar"
               className="drop-shadow-xl lg:hidden"
             ></Image>
           </div>
         </div>
         <h1 className="text-1xl opacity-75 mt-10">
-          Hi <span className="wave">👋🏽</span>, I'm
+          Hi <span className="wave text-2xl">👋🏽</span>, I'm
         </h1>
         <h1 className="text-3xl font-bold">Aitor Lancharro</h1>
         <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">
