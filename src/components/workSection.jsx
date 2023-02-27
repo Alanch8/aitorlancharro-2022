@@ -1,10 +1,13 @@
 import React from "react";
-import Image from "next/image";
+import { Cards } from "../components/cards";
 
 export const WorkSection = () => {
   return (
-    <div id="work" className="flex justify-around items-center work-section">
-      <div>
+    <div
+      id="work"
+      className="flex justify-around items-center work-section flex-col"
+    >
+      <div className="mb-4">
         <h2 className="text-lime-400">Work</h2>
         <h1 className="text-2xl font-semibold text-black opacity-75">
           Discover the projects I have been working on
@@ -16,7 +19,7 @@ export const WorkSection = () => {
           below.
         </p>
       </div>
-      <div className="CARDS"></div>
+      <Cards />
     </div>
   );
 };

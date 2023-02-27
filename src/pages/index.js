@@ -8,7 +8,6 @@ import { ContactSection } from "../components/contactSection";
 import { FooterSection } from "../components/footerSection";
 import { Divider } from "../components/divider";
 import { Announcement } from "../components/announcement";
-import { Copy } from "../components/copy";
 
 export default function Home() {
   return (
@@ -18,12 +17,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Announcement />
+      {/* <Announcement /> */}
       <HeroSection />
       <WorkSection />
       <SkillsSection />
       <ContactSection />
-      <Copy />
       <Divider />
       <FooterSection />
       <style jsx>{``}</style>

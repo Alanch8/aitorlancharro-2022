@@ -1,4 +1,5 @@
 import React from "react";
+import { Copy } from "../components/copy";
 
 export const ContactSection = () => {
   return (
@@ -19,31 +20,7 @@ export const ContactSection = () => {
       </div>
       <div className="w-full">
         <h2 className="opacity-70">Contact me via email</h2>
-        <div className="relative mb-6 mt-2">
-          <input
-            type="text"
-            id="mail"
-            className="bg-gray-50 border border-gray-300 text-red text-m rounded-lg block w-full p-2.5"
-            placeholder="aitor.lancharro@gmail.com"
-            disabled
-          />
-          <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-8 h-8 cursor-pointer opacity-60 hover:bg-gray-200 rounded p-1"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
-              />
-            </svg>
-          </div>
-        </div>
+        <Copy />
         <h2 className="opactiy-70 mb-2">Follow me on social media</h2>
         <div>
           {/* linkedin */}
@@ -100,29 +77,29 @@ export const ContactSection = () => {
           </a>
         </div>
         <form className="mt-2">
-          <label>Name</label>
+          <label className="text-sm">Name</label>
           <input
             type="text"
-            className="bg-gray-50 border border-gray-300 text-red text-m rounded-lg block w-full p-2.5 mb-3"
+            className="bg-gray-50 border border-gray-300 text-red text-sm rounded-lg block w-full p-2.5 mb-3"
             placeholder="Your Name"
             required
           />
-          <label>Email Address</label>
+          <label className="text-sm">Email Address</label>
           <input
             type="text"
-            className="bg-gray-50 border border-gray-300 text-red text-m rounded-lg block w-full p-2.5 mb-3"
+            className="bg-gray-50 border border-gray-300 text-red text-sm rounded-lg block w-full p-2.5 mb-3"
             placeholder="Your Email"
             required
           />
-          <label>Message</label>
+          <label className="text-sm">Message</label>
           <textarea
-            className="bg-gray-50 border border-gray-300 text-red text-m rounded-lg block w-full p-2.5 mb-4 resize-none"
+            className="bg-gray-50 border border-gray-300 text-red text-sm rounded-lg block w-full p-2.5 mb-4 resize-none"
             placeholder="Your Message"
             rows="5"
             required
           />
           <div className="absolute right-8">
-            <button className="bg-gray-900 text-slate-50 flex hover:text-black hover:bg-white font-semibold py-2 px-4 border border-gray-900 rounded-full focus:outline-none focus:ring active:bg-indigo-500 active:text-white cursor-pointer">
+            <button className="flex bg-gray-900 text-base text-slate-50 hover:text-black hover:bg-white font-semibold py-2 px-4 border border-gray-900 rounded-full focus:outline-none focus:ring active:bg-indigo-500 active:text-white cursor-pointer">
               Send Message
               <svg
                 xmlns="http://www.w3.org/2000/svg"
