@@ -18,6 +18,9 @@ export const WorkSection = () => {
           take a moment to peruse my latest endeavors in the projects section
           below.
         </p>
+        <div className="relative w-full max-w-lg">
+          <div className="absolute -bottom-1 -left-2 w-60 h-60 bg-lime-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+        </div>
       </div>
       <Cards />
     </div>
