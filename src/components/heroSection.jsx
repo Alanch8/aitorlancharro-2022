@@ -6,12 +6,11 @@ import vueImg from "../../public/images/vue.png";
 import reactImg from "../../public/images/react.png";
 import jsImg from "../../public/images/js.png";
 import figmaImg from "../../public/images/figma.png";
+import Typewriter from "typewriter-effect";
 
 export const HeroSection = () => {
   return (
     <div className="flex justify-around items-center hero-section">
-      {/* Announcement Component */}
-
       <div className="hero-info">
         <div className="flex justify-center">
           <div>
@@ -27,18 +26,36 @@ export const HeroSection = () => {
           Hi <span className="wave text-2xl">👋🏽</span>, I'm
         </h1>
         <h1 className="text-3xl font-bold">Aitor Lancharro</h1>
-        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">
-          {" "}
-          Frontend Developer
+
+        <h2 className="text-3xl text-neutral-400">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  '<span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">Frontend Developer</span>'
+                )
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString(
+                  '<span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-indigo-500 to-violet-500">UX/UI Enthusiast</span>'
+                )
+                .pauseFor(2000)
+                .deleteAll()
+                .start();
+            }}
+            options={{
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </h2>
-        {/* Ejemplo de lo del typewriter https://codepen.io/Danielgroen/pen/VeRPOq */}
         <p className="opacity-50 my-2 text-base">
           A creative engineer based in Barcelona with a background in Industrial
           <br></br> Engineering, Full Stack Development and Design. Interested
           in UX/UI, <br></br>Digital media, Innovative Thinking and Future
           technologies.
         </p>
-        <div className="flex">
+        <div className="flex mt-4">
           <a className="group relative inline-flex items-center overflow-hidden rounded-full bg-gray-900 px-4 py-2 text-slate-50 right-0 focus:outline-none focus:ring active:bg-indigo-500 cursor-pointer">
             <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
               <svg
