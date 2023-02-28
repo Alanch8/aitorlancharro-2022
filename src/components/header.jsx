@@ -6,8 +6,6 @@ import brand from "../../public/images/brand-logo.svg";
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  //codepen.io/alvarotrigo/pen/wvrzPWL //Try this to improve the navbar
-
   https: return (
     <div className="navbar flex items-center justify-between border-b border-gray-200 py-4 px-8 lg:px-32">
       <a href="/">
