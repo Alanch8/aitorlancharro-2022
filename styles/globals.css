@@ -252,3 +252,12 @@ body {
     animation-delay: 4s;
   }
 }
+
+.dataBody {
+  height: 90px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(black, gray, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
