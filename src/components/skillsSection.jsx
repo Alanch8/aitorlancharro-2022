@@ -25,7 +25,7 @@ export const SkillsSection = () => {
       <div className="relative w-full max-w-lg">
         <div className="absolute -bottom-20 -right-2 w-60 h-60 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-4 mt-6 mx-4">
+      <div className="grid grid-cols-2 gap-x-2 gap-y-6 mt-6 mx-4">
         <ul className="text-stone-500 mx-2">
           <li>
             <h2 className="font-semibold opacity-60 mb-2">Front</h2>
