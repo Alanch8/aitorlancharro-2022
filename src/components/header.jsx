@@ -8,7 +8,7 @@ export const Header = () => {
 
   https: return (
     <div className="navbar flex items-center justify-between border-b border-gray-200 py-4 px-8 lg:px-32">
-      <a href="/">
+      <a href="#">
         <Image src={brand} alt="logo"></Image>
       </a>
       <nav>

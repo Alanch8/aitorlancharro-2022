@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col justify-around items-center contact-section"
+      className="flex flex-col justify-around items-center contact-section mx-8 pt-20"
     >
       <div>
         <h2 className="text-lime-400">Contact</h2>

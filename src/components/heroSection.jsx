@@ -10,7 +10,7 @@ import Typewriter from "typewriter-effect";
 
 export const HeroSection = () => {
   return (
-    <div className="flex justify-around items-center hero-section">
+    <div className="flex justify-around items-center hero-section mx-8 mt-32 mb-10">
       <div className="hero-info">
         <div className="flex justify-center">
           <div className="z-10">
@@ -26,7 +26,7 @@ export const HeroSection = () => {
           <div className="absolute -bottom-2 -left-4 w-60 h-60 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
           <div className="absolute -bottom-8 left-20 w-60 h-60 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
         </div>
-        <h1 className="text-1xl opacity-75 mt-10">
+        <h1 className="text-1xl opacity-75 mt-12">
           Hi <span className="wave text-2xl">👋🏽</span>, I'm
         </h1>
         <h1 className="text-3xl font-bold">Aitor Lancharro</h1>
@@ -58,8 +58,11 @@ export const HeroSection = () => {
           in UX/UI, <br></br>Digital media, Innovative Thinking and Future
           technologies.
         </p>
-        <div className="flex mt-4">
-          <a className="group relative inline-flex items-center overflow-hidden rounded-full bg-gray-900 px-4 py-2 text-slate-50 right-0 focus:outline-none focus:ring active:bg-indigo-500 cursor-pointer">
+        <div className="flex mt-5">
+          <a
+            href="#work"
+            className="group relative inline-flex items-center overflow-hidden rounded-full bg-gray-900 px-4 py-2 text-slate-50 right-0 focus:outline-none focus:ring active:bg-indigo-500 cursor-pointer"
+          >
             <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +83,10 @@ export const HeroSection = () => {
               My Portfolio
             </span>
           </a>
-          <a className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold px-4 py-2 ml-2 border border-gray-400 rounded-full cursor-pointer">
+          <a
+            href="../../public/resume.pdf"
+            className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold px-4 py-2 ml-2 border border-gray-400 rounded-full cursor-pointer"
+          >
             Resume
             <svg
               xmlns="http://www.w3.org/2000/svg"

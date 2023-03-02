@@ -110,12 +110,6 @@ body {
   margin-left: 50px;
 }
 
-.hero-section {
-  margin-top: 100px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .hero-img {
   width: auto;
 }
@@ -185,23 +179,23 @@ body {
   }
 }
 
-.work-section {
-  margin-top: 20px;
+/* .work-section {
+  padding-top: 80px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .skills-section {
-  margin-top: 20px;
+  padding-top: 80px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .contact-section {
-  margin-top: 20px;
+  padding-top: 80px;
   padding-left: 2rem;
   padding-right: 2rem;
-}
+} */
 
 .footer-section {
   margin-top: -1px;

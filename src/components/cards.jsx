@@ -70,7 +70,7 @@ export const Cards = () => {
               </span>
             </span>
             <span className="flex items-center whitespace-nowrap rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600">
-              TailwindCSS
+              Tailwind
               <span>
                 <img
                   className="ml-1 h-4"
@@ -83,7 +83,7 @@ export const Cards = () => {
             <p className="mt-4 text-sm leading-relaxed text-gray-500 line-clamp-3 ml-1">
               This project is a recreation of the famous Pokédex using the
               Pokémon API (PokéAPI). The app is developed with Vue 3 and styled
-              with TailwindCSS. Designed with Figma.
+              with Tailwind. Designed with Figma.
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ export const Cards = () => {
               </span>
             </span>
             <span className="flex items-center whitespace-nowrap rounded-full bg-gray-100 px-2.5 py-0.5 text-xs text-gray-600">
-              TailwindCSS
+              Tailwind
               <span>
                 <img
                   className="ml-1 h-4"
@@ -161,7 +161,7 @@ export const Cards = () => {
               TaskApp is the final project of the IronHack Frontend Development
               Bootcamp that I had the pleasure to attend thanks to the "Next
               Generation" grant from the European Union. The application is
-              developed with Vue 3, Vite, Pinia and TailwindCSS.
+              developed with Vue 3, Vite, Pinia and Tailwind.
             </p>
           </div>
         </div>
