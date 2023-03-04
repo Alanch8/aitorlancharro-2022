@@ -115,19 +115,19 @@ export const HeroSection = () => {
             className="drop-shadow-xl"
           ></Image>
         </div>
-        <div className="tab-img absolute">
+        <div className="tab-img absolute animate__animated animate__fadeInRight">
           <Image src={codeTab} alt="codeTab"></Image>
         </div>
-        <div className="vue-img absolute">
+        <div className="vue-img absolute animate__animated animate__fadeInTopLeft">
           <Image src={vueImg} alt="codeTab"></Image>
         </div>
-        <div className="react-img absolute">
+        <div className="react-img absolute animate__animated animate__fadeInTopLeft">
           <Image src={reactImg} alt="codeTab"></Image>
         </div>
-        <div className="js-img absolute">
+        <div className="js-img absolute animate__animated animate__fadeInTopRight">
           <Image src={jsImg} alt="codeTab"></Image>
         </div>
-        <div className="figma-img absolute">
+        <div className="figma-img absolute animate__animated animate__fadeInTopRight">
           <Image src={figmaImg} alt="codeTab"></Image>
         </div>
       </div>
