@@ -84,7 +84,8 @@ export const HeroSection = () => {
             </span>
           </a>
           <a
-            href="../../public/resume.pdf"
+            href="resume.pdf"
+            target={"_blank"}
             className="bg-white flex hover:bg-gray-200 text-gray-800 font-semibold px-4 py-2 ml-2 border border-gray-400 rounded-full cursor-pointer"
           >
             Resume
