@@ -22,9 +22,9 @@ export const HeroSection = () => {
             ></Image>
           </div>
         </div>
-        <div className="relative w-full max-w-lg">
-          <div className="absolute -bottom-2 -left-4 w-60 h-60 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
-          <div className="absolute -bottom-8 left-20 w-60 h-60 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+        <div className="relative w-full max-w-lg lg:absolute lg:right-0 lg:top-96">
+          <div className="absolute -bottom-2 -left-4 w-60 h-60 lg:w-96 lg:h-96 lg:-bottom-24 lg:-left-24 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+          <div className="absolute -bottom-8 left-20 w-60 h-60 lg:w-96 lg:h-96 lg:-bottom-52 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
         </div>
         <h1 className="text-1xl opacity-75 mt-12">
           Hi <span className="wave text-2xl">👋🏽</span>, I'm

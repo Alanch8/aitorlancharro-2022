@@ -5,7 +5,7 @@ export const WorkSection = () => {
   return (
     <div
       id="work"
-      className="flex justify-around items-center work-section flex-col mx-8 pt-20"
+      className="flex justify-around items-center work-section flex-col mx-8 pt-20 lg:mx-36"
     >
       <div className="mb-4">
         <h2 className="text-lime-400">Work</h2>

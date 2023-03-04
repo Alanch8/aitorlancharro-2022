@@ -12,7 +12,7 @@ import circleagency from "../../public/images/circleagency.jpeg";
 
 export const Cards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 lg:mx-12">
       {/* pokeapp */}
       <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
         <Image

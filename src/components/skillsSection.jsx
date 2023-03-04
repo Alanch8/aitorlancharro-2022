@@ -9,7 +9,7 @@ export const SkillsSection = () => {
   return (
     <div
       id="skills"
-      className="flex flex-col justify-around items-center skills-section mx-8 pt-20"
+      className="flex flex-col justify-around items-center skills-section mx-8 pt-20 lg:mx-36"
     >
       <div>
         <h2 className="text-lime-400">Skills</h2>
@@ -23,9 +23,9 @@ export const SkillsSection = () => {
         </p>
       </div>
       <div className="relative w-full max-w-lg">
-        <div className="absolute -bottom-20 -right-2 w-60 h-60 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+        <div className="absolute -bottom-20 -right-2 lg:-right-72 w-60 h-60 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-6 mt-6 mx-4">
+      <div className="mt-10 grid grid-cols-2 gap-x-2 gap-y-6 mt-6 mx-4 sm:grid-cols-3 lg:gap-x-64">
         <ul className="text-stone-500 mx-2">
           <li>
             <h2 className="font-semibold opacity-60 mb-2">Front</h2>
